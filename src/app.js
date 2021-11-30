@@ -1,36 +1,12 @@
-console.log("Merhaba Kodlama.io")
-
-//JS type safe değildir
-let dolarBugun = 9.30
+console.log("Merhaba kodlamaio");
 
 let dolarDun = 9.20
-dolarDun = "9.20"
-{
-    let dolarDun = 9.10
-}
-
-console.log(dolarDun)
+let dolarBugun = 9.30
 
 const euroDun = 11.2
-//euroDun = 11
 
-console.log(euroDun)
+let users = ["Konut Kredisi", "Emlak Konut Kredisi", "Kamu KonutKredisi"]
 
-//array
-//camelCasing
-//PascalCasing
-let konutKredileri = ["Konut kredisi","Emlak Konut Kredisi","Kamu Konut Kredisi","Özel Konut Kredisi"]
-
-console.log("<ul>")
-for(let i = 0;i<konutKredileri.length;i++){
-    console.log("<li>"+konutKredileri[i]+"</li>")
+for(let i = 0; users.length > i; i++){
+    console.log(users[i]);
 }
-console.log("</ul>")
-
-{/* <ul>
-    <li>Konut kredisi</li>
-    <li>Emlak Konut Kredisi</li>
-    <li>Kamu Konut Kredisi</li>
-</ul> */}
-
-console.log(konutKredileri)
