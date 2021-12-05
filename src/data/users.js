@@ -1,60 +1,47 @@
-
-//id, firstName, lastName, city,age, creditCardNumber
 export const users = [
     {
         id: 1,
-        firstName: "Engin",
-        lastName: "Demiroğ",
-        city:"Ankara",
-        age: 36,
-        creditCardNumber: "123456",
-        type: "customer"
-    },
-    {
-        id: 6,
-        firstName: "Beytullah",
-        lastName: "Zor",
-        city:"Ankara",
-        age: 36,
-        creditCardNumber: "123456",
-        type: "customer"
+        firstName: 'John',
+        lastName: 'Doe',
+        city:"San Francisco",
+        age: 21,
+        creditCardNumber: "1234 5432 2345",
+        type: 'customer'
     },
     {
         id: 2,
-        firstName: "Mustafa",
-        lastName: "Sansar",
-        city: "İstanbul",
+        firstName: 'Rıdvan',
+        lastName: 'Bozkır',
+        city: 'Ankara',
         age: 21,
-        creditCardNumber: "654321",
-        type: "customer"
+        creditCardNumber: "2211 5332 2345",
+        type: 'customer'
     },
     {
         id: 3,
-        firstName: "Cansu",
-        lastName: "Değirmen",
-        city: "İstanbul",
-        salary: 8000,
-        age:20,
-        type: "employee"
+        firstName: 'Cansu',
+        lastName: 'Doe',
+        city: 'İstanbul',
+        age: 54,
+        salary: 9875,
+        type: 'employee'
     },
     {
         id: 4,
-        firstName: "Mücahit",
-        lastName: "Kaya",
-        city: "Bolu",
-        age: 23,
-        salary:17000,
-        type: "employee"
+        firstName: 'Tuğçe',
+        lastName: 'Bozkır',
+        city: 'Bursa',
+        age: 30,
+        salary: 17000,
+        type: 'employee'
     },
     {
         id: 5,
-        firstName: "Eren",
-        lastName: "Arı",
-        city: "Diyarbakır",
-        age: 20,
+        firstName: 'Eren',
+        lastName: 'Ari',
+        city: 'Diyarbakır',
+        age: 44,
         salary: 15000,
-        type: "employee"
+        type: 'employee'
     }
 ]
-
-//23.05 Dersteyiz
